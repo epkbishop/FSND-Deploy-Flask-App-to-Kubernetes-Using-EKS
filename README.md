@@ -13,22 +13,22 @@ The Flask app that will be used for this project consists of a simple API with t
 The app relies on a secret set as the environment variable `JWT_SECRET` to produce a JWT. The built-in Flask server is adequate for local development, but not production, so you will be using the production-ready [Gunicorn](https://gunicorn.org/) server when deploying the app.
 
 ## Initial setup
-1. Fork this project to your Github account.
-2. Locally clone your forked version to begin working on the project.
+x1. Fork this project to your Github account.
+x2. Locally clone your forked version to begin working on the project.
 
 ## Dependencies
 
 - Docker Engine
-    - Installation instructions for all OSes can be found [here](https://docs.docker.com/install/).
+ x   - Installation instructions for all OSes can be found [here](https://docs.docker.com/install/).
     - For Mac users, if you have no previous Docker Toolbox installation, you can install Docker Desktop for Mac. If you already have a Docker Toolbox installation, please read [this](https://docs.docker.com/docker-for-mac/docker-toolbox/) before installing.
- - AWS Account
+ x- AWS Account
      - You can create an AWS account by signing up [here](https://aws.amazon.com/#).
      
 ## Project Steps
 
 Completing the project involves several steps:
 
-1. Write a Dockerfile for a simple Flask API
+x1. Write a Dockerfile for a simple Flask API
 2. Build and test the container locally
 3. Create an EKS cluster
 4. Store a secret using AWS Parameter Store

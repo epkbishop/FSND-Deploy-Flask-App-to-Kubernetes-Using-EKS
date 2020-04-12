@@ -4,6 +4,10 @@ APP = Flask(__name__)
 
 @APP.route('/')
 def hello_world():
+<<<<<<< HEAD
+=======
+    print('This is a message')
+>>>>>>> First Update
     return 'Hello, World from Flask!\n'
 
 
