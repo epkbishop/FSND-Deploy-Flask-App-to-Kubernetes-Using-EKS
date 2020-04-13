@@ -29,9 +29,9 @@ x2. Locally clone your forked version to begin working on the project.
 Completing the project involves several steps:
 
 x1. Write a Dockerfile for a simple Flask API
-2. Build and test the container locally
-3. Create an EKS cluster
-4. Store a secret using AWS Parameter Store
+x2. Build and test the container locally
+x3. Create an EKS cluster
+x4. Store a secret using AWS Parameter Store
 5. Create a CodePipeline pipeline triggered by GitHub checkins
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
